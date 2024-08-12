@@ -208,7 +208,7 @@
     },
     "FontFamily": {
       "Default": {
-        "value": "{base.FontFamily.Roboto}",
+        "value": "{base.FontFamily.NotoSans}",
         "type": "fontFamilies"
       }
     },
