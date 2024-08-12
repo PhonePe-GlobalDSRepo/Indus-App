@@ -99,7 +99,7 @@
           "type": "color"
         },
         "Primary": {
-          "value": "{base.Color.AlphaWhite.1000}",
+          "value": "{base.Color.AlphaWhite.950}",
           "type": "color"
         },
         "Secondary": {
@@ -141,6 +141,10 @@
       },
       "8": {
         "value": "{base.BorderRadius.8}",
+        "type": "borderRadius"
+      },
+      "12": {
+        "value": "{base.BorderRadius.12}",
         "type": "borderRadius"
       },
       "16": {
