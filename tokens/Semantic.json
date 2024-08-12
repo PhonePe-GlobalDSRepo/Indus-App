@@ -53,271 +53,79 @@
     "Color": {
       "Brand": {
         "Primary": {
-          "value": "{base.Color.Blue.900}",
-          "type": "color"
-        }
-      },
-      "CTA": {
-        "Background": {
-          "value": "{semantic.Color.Brand.Primary}",
+          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.500} 100%)",
           "type": "color"
         },
-        "Text": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Border": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{semantic.Color.Brand.Primary}",
+        "Secondary": {
+          "value": "linear-gradient(145deg, {base.Color.Orange.400} 0%, {base.Color.Red.600} 100%)",
           "type": "color"
         }
       },
       "Surface": {
-        "PageBackground": {
-          "value": "{base.Color.Grey.100}",
-          "type": "color"
-        },
-        "PrimaryLayer": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "ElevatedLayer": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Success": {
-        "BackgroundBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Green.50}",
-          "type": "color"
-        },
-        "TextBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "BorderBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "BorderSubtle": {
-          "value": "{base.Color.Green.200}",
-          "type": "color"
-        },
-        "IconBold": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "IconSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Warning": {
-        "BackgroundBold": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Orange.50}",
-          "type": "color"
-        },
-        "TextBold": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "BorderBold": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "BorderSubtle": {
-          "value": "{base.Color.Orange.200}",
-          "type": "color"
-        },
-        "IconBold": {
-          "value": "{base.Color.Orange.900}",
-          "type": "color"
-        },
-        "IconSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Danger": {
-        "BackgroundBold": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Red.50}",
-          "type": "color"
-        },
-        "TextBold": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "BorderBold": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "BorderSubtle": {
-          "value": "{base.Color.Red.200}",
-          "type": "color"
-        },
-        "IconBold": {
-          "value": "{base.Color.Red.900}",
-          "type": "color"
-        },
-        "IconSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Info": {
-        "BackgroundBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "BackgroundSubtle": {
-          "value": "{base.Color.Blue.50}",
-          "type": "color"
-        },
-        "TextBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "TextSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        },
-        "BorderBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "BorderSubtle": {
-          "value": "{base.Color.Blue.200}",
-          "type": "color"
-        },
-        "IconBold": {
-          "value": "{base.Color.Blue.700}",
-          "type": "color"
-        },
-        "IconSubtle": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Selection": {
         "Background": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.AlphaBlack.1000}",
           "type": "color"
         },
-        "Text": {
-          "value": "{base.Color.Green.800}",
+        "Surface1": {
+          "value": "{base.Color.Slate.950}",
           "type": "color"
         },
-        "Border": {
-          "value": "{base.Color.Green.800}",
-          "type": "color"
-        },
-        "Icon": {
-          "value": "{base.Color.Green.800}",
+        "Surface2": {
+          "value": "{base.Color.Slate.900}",
           "type": "color"
         }
       },
-      "Disabled": {
-        "Background": {
-          "value": "{base.Color.Grey.300}",
+      "Status": {
+        "Positive": {
+          "value": "{base.Color.Green.400}",
           "type": "color"
         },
-        "Text": {
-          "value": "{base.Color.Grey.500}",
+        "Negative": {
+          "value": "{base.Color.Red.500}",
           "type": "color"
         },
-        "Border": {
-          "value": "{base.Color.Grey.500}",
+        "Warning": {
+          "value": "{base.Color.Amber.400}",
           "type": "color"
         },
-        "Icon": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        }
-      },
-      "Border": {
-        "Brand": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Default": {
-          "value": "{base.Color.Grey.500}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.Neutral.White}",
-          "type": "color"
-        }
-      },
-      "Icon": {
-        "Brand": {
-          "value": "{semantic.Color.Brand.Primary}",
-          "type": "color"
-        },
-        "Primary": {
-          "value": "{base.Color.Grey.800}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{semantic.Color.Neutral.White}",
+        "Info": {
+          "value": "{base.Color.Blue.500}",
           "type": "color"
         }
       },
       "Text": {
         "Brand": {
-          "value": "{semantic.Color.Brand.Primary}",
+          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.300} 100%)",
           "type": "color"
         },
         "Primary": {
-          "value": "{base.Color.Grey.900}",
+          "value": "{base.Color.AlphaWhite.1000}",
           "type": "color"
         },
         "Secondary": {
-          "value": "{base.Color.Grey.700}",
+          "value": "{base.Color.AlphaWhite.700}",
           "type": "color"
         },
         "Tertiary": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.AlphaWhite.600}",
           "type": "color"
         },
-        "Inverse": {
-          "value": "{base.Color.Neutral.White}",
+        "Disabled": {
+          "value": "{base.Color.AlphaWhite.400}",
           "type": "color"
         }
       },
-      "Neutral": {
-        "Black": {
-          "value": "{base.Color.Neutral.Black}",
+      "Border": {
+        "Highlight": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.1000} 0%, {base.Color.AlphaWhite.600} 100%)",
           "type": "color"
         },
-        "White": {
-          "value": "{base.Color.Neutral.White}",
+        "Primary": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.300} 0%, {base.Color.AlphaWhite.100} 100%)",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.100} 0%, {base.Color.AlphaWhite.50} 100%)",
           "type": "color"
         }
       }

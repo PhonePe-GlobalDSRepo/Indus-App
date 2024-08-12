@@ -96,7 +96,7 @@
       "InputField": {
         "Default": {
           "Background": {
-            "value": "{semantic.Color.Surface.PrimaryLayer}",
+            "value": "{semantic.Color.Surface.Surface1}",
             "type": "color"
           },
           "LabelText": {
@@ -130,7 +130,7 @@
         },
         "Active": {
           "Background": {
-            "value": "{semantic.Color.Surface.PrimaryLayer}",
+            "value": "{semantic.Color.Surface.Surface1}",
             "type": "color"
           },
           "LabelText": {
