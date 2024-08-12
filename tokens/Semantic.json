@@ -174,92 +174,6 @@
         "type": "borderWidth"
       }
     },
-    "FontWeight": {
-      "Regular": {
-        "value": "{base.FontWeight.Regular}",
-        "type": "fontWeights"
-      },
-      "Bold": {
-        "value": "{base.FontWeight.Bold}",
-        "type": "fontWeights"
-      }
-    },
-    "LineHeight": {
-      "100%": {
-        "value": "{base.LineHeight.100%}",
-        "type": "lineHeights"
-      },
-      "115%": {
-        "value": "{base.LineHeight.115%}",
-        "type": "lineHeights"
-      },
-      "125%": {
-        "value": "{base.LineHeight.125%}",
-        "type": "lineHeights"
-      },
-      "135%": {
-        "value": "{base.LineHeight.135%}",
-        "type": "lineHeights"
-      },
-      "150%": {
-        "value": "{base.LineHeight.150%}",
-        "type": "lineHeights"
-      }
-    },
-    "FontFamily": {
-      "Default": {
-        "value": "{base.FontFamily.NotoSans}",
-        "type": "fontFamilies"
-      }
-    },
-    "FontSize": {
-      "10": {
-        "value": "{base.FontSize.10}",
-        "type": "fontSizes"
-      },
-      "12": {
-        "value": "{base.FontSize.12}",
-        "type": "fontSizes"
-      },
-      "14": {
-        "value": "{base.FontSize.14}",
-        "type": "fontSizes"
-      },
-      "16": {
-        "value": "{base.FontSize.16}",
-        "type": "fontSizes"
-      },
-      "20": {
-        "value": "{base.FontSize.20}",
-        "type": "fontSizes"
-      },
-      "24": {
-        "value": "{base.FontSize.24}",
-        "type": "fontSizes"
-      },
-      "32": {
-        "value": "{base.FontSize.32}",
-        "type": "fontSizes"
-      },
-      "40": {
-        "value": "{base.FontSize.40}",
-        "type": "fontSizes"
-      },
-      "48": {
-        "value": "{base.FontSize.48}",
-        "type": "fontSizes"
-      },
-      "56": {
-        "value": "{base.FontSize.56}",
-        "type": "fontSizes"
-      }
-    },
-    "TextCase": {
-      "None": {
-        "value": "{base.TextCase.None}",
-        "type": "textCase"
-      }
-    },
     "TextDecoration": {
       "None": {
         "value": "{base.TextDecoration.None}",
@@ -276,12 +190,21 @@
     },
     "Typography": {
       "Heading": {
-        "XXXL": {
+        "H1": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.56}",
-            "lineHeight": "{semantic.LineHeight.115%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.32}",
+            "lineHeight": "{base.LineHeight.125%}"
+          },
+          "type": "typography"
+        },
+        "H2": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.24}",
+            "lineHeight": "{base.LineHeight.125%}"
           },
           "type": "typography"
         },
