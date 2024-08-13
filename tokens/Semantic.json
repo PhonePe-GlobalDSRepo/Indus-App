@@ -74,8 +74,12 @@
           "value": "{base.Color.AlphaBlack.1000}",
           "type": "color"
         },
+        "BackgroundAlpha": {
+          "value": "{base.Color.AlphaBlack.950}",
+          "type": "color"
+        },
         "Surface1": {
-          "value": "{base.Color.Slate.900}",
+          "value": "{base.Color.Slate.950}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -89,6 +93,14 @@
         },
         "Surface2": {
           "value": "{base.Color.Slate.800}",
+          "type": "color"
+        },
+        "SurfaceAlphaLight": {
+          "value": "{base.Color.AlphaWhite.100}",
+          "type": "color"
+        },
+        "SurfaceAlphaDark": {
+          "value": "{base.Color.AlphaBlack.800}",
           "type": "color"
         }
       },
@@ -437,12 +449,6 @@
       "200": {
         "value": "{base.Size.200}",
         "type": "sizing"
-      }
-    },
-    "Opacity": {
-      "50%": {
-        "value": "{base.Opacity.50%}",
-        "type": "opacity"
       }
     },
     "BackgroundBlur": {
