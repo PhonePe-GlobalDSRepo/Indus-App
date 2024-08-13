@@ -224,6 +224,15 @@
           },
           "type": "typography"
         },
+        "H3": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.18}",
+            "lineHeight": "{base.LineHeight.135%}"
+          },
+          "type": "typography"
+        },
         "XXL": {
           "value": {
             "fontFamily": "{semantic.FontFamily.Default}",

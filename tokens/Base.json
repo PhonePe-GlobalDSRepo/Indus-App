@@ -2585,6 +2585,124 @@
         "value": "line-through",
         "type": "textDecoration"
       }
+    },
+    "LetterSpacing": {
+      "-5%": {
+        "value": "-5%",
+        "type": "letterSpacing"
+      },
+      "-4,5%": {
+        "value": "-4.5%",
+        "type": "letterSpacing"
+      },
+      "-4%": {
+        "value": "-4%",
+        "type": "letterSpacing"
+      },
+      "-3,5%": {
+        "value": "-3.5%",
+        "type": "letterSpacing"
+      },
+      "-3%": {
+        "value": "-3%",
+        "type": "letterSpacing"
+      },
+      "-2,5%": {
+        "value": "-2.5%",
+        "type": "letterSpacing"
+      },
+      "-2%": {
+        "value": "-2%",
+        "type": "letterSpacing"
+      },
+      "-1,5%": {
+        "value": "-1.5%",
+        "type": "letterSpacing"
+      },
+      "-1%": {
+        "value": "-1%",
+        "type": "letterSpacing"
+      },
+      "-0,5%": {
+        "value": "-0.5%",
+        "type": "letterSpacing"
+      },
+      "0%": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "0,5%": {
+        "value": "0.5%",
+        "type": "letterSpacing"
+      },
+      "1%": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "1,5%": {
+        "value": "1.5%",
+        "type": "letterSpacing"
+      },
+      "2%": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "2,5%": {
+        "value": "2.5%",
+        "type": "letterSpacing"
+      },
+      "3,5%": {
+        "value": "3.5%",
+        "type": "letterSpacing"
+      },
+      "4%": {
+        "value": "4%",
+        "type": "letterSpacing"
+      },
+      "4,5%": {
+        "value": "4.5%",
+        "type": "letterSpacing"
+      },
+      "5%": {
+        "value": "5%",
+        "type": "letterSpacing"
+      },
+      "6%": {
+        "value": "6%",
+        "type": "letterSpacing"
+      },
+      "7%": {
+        "value": "7%",
+        "type": "letterSpacing"
+      },
+      "8%": {
+        "value": "8%",
+        "type": "letterSpacing"
+      },
+      "9%": {
+        "value": "9%",
+        "type": "letterSpacing"
+      },
+      "10%": {
+        "value": "10%",
+        "type": "letterSpacing"
+      },
+      "11%": {
+        "value": "11%",
+        "type": "letterSpacing"
+      },
+      "12%": {
+        "value": "12%",
+        "type": "letterSpacing"
+      },
+      "13%": {
+        "value": "13%",
+        "type": "letterSpacing"
+      },
+      "14%": {
+        "value": "14%",
+        "type": "letterSpacing"
+      }
     }
   }
 }
