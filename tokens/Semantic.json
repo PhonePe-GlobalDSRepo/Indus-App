@@ -211,7 +211,8 @@
             "fontFamily": "{base.FontFamily.NotoSans}",
             "fontWeight": "{base.FontWeight.SemiBold}",
             "fontSize": "{base.FontSize.32}",
-            "lineHeight": "{base.LineHeight.125%}"
+            "lineHeight": "{base.LineHeight.125%}",
+            "letterSpacing": "{base.LetterSpacing.0%}"
           },
           "type": "typography"
         },
@@ -220,7 +221,8 @@
             "fontFamily": "{base.FontFamily.NotoSans}",
             "fontWeight": "{base.FontWeight.SemiBold}",
             "fontSize": "{base.FontSize.24}",
-            "lineHeight": "{base.LineHeight.125%}"
+            "lineHeight": "{base.LineHeight.125%}",
+            "letterSpacing": "{base.LetterSpacing.0%}"
           },
           "type": "typography"
         },
@@ -229,99 +231,70 @@
             "fontFamily": "{base.FontFamily.NotoSans}",
             "fontWeight": "{base.FontWeight.SemiBold}",
             "fontSize": "{base.FontSize.18}",
-            "lineHeight": "{base.LineHeight.135%}"
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         },
-        "XXL": {
+        "H4": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.48}",
-            "lineHeight": "{semantic.LineHeight.115%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.16}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         },
-        "XL": {
+        "H5": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.40}",
-            "lineHeight": "{semantic.LineHeight.115%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.14}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         },
-        "L": {
+        "H6": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.32}",
-            "lineHeight": "{semantic.LineHeight.115%}"
-          },
-          "type": "typography"
-        },
-        "M": {
-          "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.24}",
-            "lineHeight": "{semantic.LineHeight.115%}"
-          },
-          "type": "typography"
-        },
-        "S": {
-          "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.20}",
-            "lineHeight": "{semantic.LineHeight.115%}"
-          },
-          "type": "typography"
-        },
-        "XS": {
-          "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.16}",
-            "lineHeight": "{semantic.LineHeight.115%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.12}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         }
       },
       "Body": {
-        "L": {
+        "B1": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Regular}",
-            "fontSize": "{semantic.FontSize.16}",
-            "lineHeight": "{semantic.LineHeight.135%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.16}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         },
-        "M": {
+        "B2": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Regular}",
-            "fontSize": "{semantic.FontSize.14}",
-            "lineHeight": "{semantic.LineHeight.135%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.14}",
+            "lineHeight": "{base.LineHeight.140%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         },
-        "S": {
+        "B3": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Regular}",
-            "fontSize": "{semantic.FontSize.12}",
-            "lineHeight": "{semantic.LineHeight.135%}"
-          },
-          "type": "typography"
-        },
-        "XS": {
-          "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Regular}",
-            "fontSize": "{semantic.FontSize.10}",
-            "lineHeight": "{semantic.LineHeight.135%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.12}",
+            "lineHeight": "{base.LineHeight.150%}",
+            "letterSpacing": "{base.LetterSpacing.1,5%}"
           },
           "type": "typography"
         }
@@ -329,28 +302,63 @@
       "Button": {
         "L": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.16}",
-            "lineHeight": "{semantic.LineHeight.125%}"
-          },
-          "type": "typography"
-        },
-        "M": {
-          "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.14}",
-            "lineHeight": "{semantic.LineHeight.125%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.16}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.4%}"
           },
           "type": "typography"
         },
         "S": {
           "value": {
-            "fontFamily": "{semantic.FontFamily.Default}",
-            "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontSize": "{semantic.FontSize.12}",
-            "lineHeight": "{semantic.LineHeight.125%}"
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.12}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.4%}"
+          },
+          "type": "typography"
+        }
+      },
+      "Caption": {
+        "C1-R": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.12}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.12%}"
+          },
+          "type": "typography"
+        },
+        "C1-B": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.12}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.12%}"
+          },
+          "type": "typography"
+        },
+        "C2-B": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.SemiBold}",
+            "fontSize": "{base.FontSize.10}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.12%}"
+          },
+          "type": "typography"
+        },
+        "C2-R": {
+          "value": {
+            "fontFamily": "{base.FontFamily.NotoSans}",
+            "fontWeight": "{base.FontWeight.Regular}",
+            "fontSize": "{base.FontSize.10}",
+            "lineHeight": "{base.LineHeight.135%}",
+            "letterSpacing": "{base.LetterSpacing.12%}"
           },
           "type": "typography"
         }
