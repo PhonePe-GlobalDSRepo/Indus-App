@@ -444,6 +444,26 @@
         "value": "{base.Opacity.50%}",
         "type": "opacity"
       }
+    },
+    "BackgroundBlur": {
+      "High": {
+        "value": {
+          "backgroundBlur": "60"
+        },
+        "type": "composition"
+      },
+      "Mid": {
+        "value": {
+          "backgroundBlur": "40"
+        },
+        "type": "composition"
+      },
+      "Low": {
+        "value": {
+          "backgroundBlur": "10"
+        },
+        "type": "composition"
+      }
     }
   }
 }
