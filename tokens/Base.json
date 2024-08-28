@@ -2540,7 +2540,7 @@
           }
         },
         "950": {
-          "value": "#fffffff",
+          "value": "#ffffff",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
