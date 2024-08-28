@@ -8,7 +8,8 @@
       "Semantic": "enabled",
       "Component": "enabled",
       "Theme/Dark": "enabled"
-    }
+    },
+    "group": "Theme"
   },
   {
     "id": "d1831fa4fb7b506e57863a7338fb16c9efa4a002",
@@ -19,6 +20,7 @@
       "Semantic": "enabled",
       "Component": "enabled",
       "Theme/Light": "enabled"
-    }
+    },
+    "group": "Theme"
   }
 ]

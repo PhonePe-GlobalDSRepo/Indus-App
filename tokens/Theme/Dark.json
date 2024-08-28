@@ -1,1 +1,105 @@
-{}
+{
+  "semantic": {
+    "Color": {
+      "Brand": {
+        "Primary": {
+          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.500} 100%)",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "linear-gradient(145deg, {base.Color.Orange.400} 0%, {base.Color.Red.600} 100%)",
+          "type": "color"
+        }
+      },
+      "Surface": {
+        "Background": {
+          "value": "{base.Color.AlphaBlack.1000}",
+          "type": "color"
+        },
+        "BackgroundAlpha": {
+          "value": "{base.Color.AlphaBlack.950}",
+          "type": "color"
+        },
+        "Surface1": {
+          "value": "{base.Color.Slate.950}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Surface2": {
+          "value": "{base.Color.Slate.800}",
+          "type": "color"
+        },
+        "SurfaceAlphaLight": {
+          "value": "{base.Color.AlphaWhite.100}",
+          "type": "color"
+        },
+        "SurfaceAlphaDark": {
+          "value": "{base.Color.AlphaBlack.800}",
+          "type": "color"
+        }
+      },
+      "Status": {
+        "Positive": {
+          "value": "{base.Color.Green.400}",
+          "type": "color"
+        },
+        "Negative": {
+          "value": "{base.Color.Red.500}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{base.Color.Amber.400}",
+          "type": "color"
+        },
+        "Info": {
+          "value": "{base.Color.Blue.500}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Brand": {
+          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.300} 100%)",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.AlphaWhite.950}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.AlphaWhite.700}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{base.Color.AlphaWhite.600}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{base.Color.AlphaWhite.400}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "Highlight": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.1000} 0%, {base.Color.AlphaWhite.600} 100%)",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.300} 0%, {base.Color.AlphaWhite.100} 100%)",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "linear-gradient(145deg, {base.Color.AlphaWhite.100} 0%, {base.Color.AlphaWhite.50} 100%)",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
