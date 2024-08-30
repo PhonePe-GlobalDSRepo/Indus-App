@@ -4,11 +4,13 @@
       "Brand": {
         "Primary": {
           "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.500} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "GRADIENT Brand Primary"
         },
         "Secondary": {
           "value": "linear-gradient(145deg, {base.Color.Orange.400} 0%, {base.Color.Red.600} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "GRADIENT Brand Secondary"
         }
       },
       "Surface": {
@@ -89,15 +91,18 @@
       "Border": {
         "Highlight": {
           "value": "linear-gradient(145deg, {base.Color.AlphaWhite.1000} 0%, {base.Color.AlphaWhite.600} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "GRADIENT Border Highlight"
         },
         "Primary": {
           "value": "linear-gradient(145deg, {base.Color.AlphaWhite.300} 0%, {base.Color.AlphaWhite.100} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "GRADIENT Border Primary"
         },
         "Secondary": {
           "value": "linear-gradient(145deg, {base.Color.AlphaWhite.100} 0%, {base.Color.AlphaWhite.50} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "GRADIENT Border Secondary"
         }
       }
     }
