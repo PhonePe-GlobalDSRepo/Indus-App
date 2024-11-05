@@ -60,26 +60,30 @@
     },
     "Color": {
       "Brand": {
-        "Primary": {
+        "BgPrimary": {
           "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.500} 100%)",
           "type": "color"
         },
-        "Secondary": {
+        "BgSecondary": {
           "value": "linear-gradient(145deg, {base.Color.Orange.400} 0%, {base.Color.Red.600} 100%)",
+          "type": "color"
+        },
+        "TextPrimary": {
+          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.300} 100%)",
           "type": "color"
         }
       },
       "Surface": {
-        "Background": {
-          "value": "{base.Color.AlphaBlack.1000}",
+        "Primary": {
+          "value": "{base.Color.Grey.950}",
           "type": "color"
         },
-        "BackgroundAlpha": {
-          "value": "{base.Color.AlphaBlack.950}",
+        "Secondary": {
+          "value": "{base.Color.Slate.800}",
           "type": "color"
         },
-        "Surface1": {
-          "value": "{base.Color.Slate.950}",
+        "Tertiary": {
+          "value": "{base.Color.Slate.700}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -91,16 +95,20 @@
             }
           }
         },
-        "Surface2": {
-          "value": "{base.Color.Slate.800}",
+        "Selected": {
+          "value": "{base.Color.AlphaWhite.200}",
           "type": "color"
         },
-        "SurfaceAlphaLight": {
+        "AlphaLight": {
           "value": "{base.Color.AlphaWhite.100}",
           "type": "color"
         },
-        "SurfaceAlphaDark": {
+        "AlphaDark": {
           "value": "{base.Color.AlphaBlack.800}",
+          "type": "color"
+        },
+        "Highlight": {
+          "value": "linear-gradient(145deg, {base.Color.Slate.900} 0%, {base.Color.AlphaBlack.1000} 100%)",
           "type": "color"
         }
       },
@@ -123,10 +131,6 @@
         }
       },
       "Text": {
-        "Brand": {
-          "value": "linear-gradient(145deg, {base.Color.Orange.200} 0%, {base.Color.Red.300} 100%)",
-          "type": "color"
-        },
         "Primary": {
           "value": "{base.Color.AlphaWhite.950}",
           "type": "color"
@@ -144,7 +148,7 @@
           "type": "color"
         }
       },
-      "Border": {
+      "Outline": {
         "Highlight": {
           "value": "linear-gradient(145deg, {base.Color.AlphaWhite.1000} 0%, {base.Color.AlphaWhite.600} 100%)",
           "type": "color"
@@ -155,6 +159,96 @@
         },
         "Secondary": {
           "value": "linear-gradient(145deg, {base.Color.AlphaWhite.100} 0%, {base.Color.AlphaWhite.50} 100%)",
+          "type": "color"
+        }
+      },
+      "Bg": {
+        "Primary": {
+          "value": "{base.Color.AlphaBlack.1000}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.Slate.950}",
+          "type": "color"
+        },
+        "Tertiary": {
+          "value": "{base.Color.Slate.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "Alpha": {
+          "value": "{base.Color.AlphaBlack.950}",
+          "type": "color"
+        }
+      },
+      "Divider": {
+        "Highlight": {
+          "value": "linear-gradient(90deg, {base.Color.AlphaWhite.100} 0%, {base.Color.AlphaWhite.300} 50%, {base.Color.AlphaWhite.100} 100%)",
+          "type": "color"
+        },
+        "Primary": {
+          "value": "{base.Color.AlphaWhite.200}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.AlphaWhite.100}",
+          "type": "color"
+        }
+      },
+      "Loader": {
+        "Primary": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        }
+      },
+      "Button": {
+        "BgPrimary": {
+          "value": "{base.Color.AlphaWhite.950}",
+          "type": "color"
+        },
+        "BgSecondary": {
+          "value": "{base.Color.AlphaBlack.50}",
+          "type": "color"
+        },
+        "BgTertiary": {
+          "value": "{base.Color.AlphaWhite.100}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "0",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "BgPressed": {
+          "value": "{base.Color.AlphaWhite.200}",
+          "type": "color"
+        },
+        "BgDisabled": {
+          "value": "{base.Color.AlphaWhite.100}",
+          "type": "color"
+        },
+        "TextPrimary": {
+          "value": "{base.Color.AlphaBlack.950}",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "{base.Color.AlphaWhite.950}",
           "type": "color"
         }
       }
